@@ -1,0 +1,7 @@
+tensorflow>=2.16
+pillow>=10.0
+numpy>=1.26
+scikit-learn>=1.4
+matplotlib>=3.8
+icrawler>=0.6.7
+kaggle>=1.6

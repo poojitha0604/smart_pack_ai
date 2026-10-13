@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>SmartPack AI</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div class="wrap">
+<header><div class="logo">SMARTPACK <span>AI</span></div>
+<select id="lang" aria-label="Language"><option value="0">English</option><option value="1">हिन्दी</option><option value="2">తెలుగు</option></select></header>
+
+<section id="p1"><div class="card"><h1 data-i="h_up"></h1><p data-i="p_up"></p>
+<div class="drop" id="drop"><div style="font-size:40px">📷</div><b data-i="choose"></b></div>
+<input type="file" id="file" accept="image/*" class="hide"></div></section>
+
+<section id="p2" class="hide"><div class="grid">
+<div class="card"><img id="prev" class="food" alt=""></div>
+<div class="card"><h2 data-i="det"></h2>
+<div class="item"><span class="itemlbl" data-i="item"></span><div class="big" id="itemName"></div></div><div class="note" id="detNote"></div>
+<label for="food" data-i="confirm"></label><select id="food"></select>
+<label for="life" data-i="life"></label><input id="life" type="number" min="1" max="365" value="10">
+<label for="storage" data-i="storage"></label><select id="storage"></select>
+<label for="hours" data-i="hrs"></label><input id="hours" type="number" min="0.5" max="720" step="0.5" value="12">
+<label for="temp" data-i="temp"></label><input id="temp" type="number" value="5">
+<div style="margin-top:16px;display:flex;gap:8px"><button class="btn" id="go" data-i="go"></button><button class="btn ghost" id="back1" data-i="back"></button></div>
+</div></div></section>
+<section id="p3" class="hide"></section>
+</div>
+
+<script src="js/i18n.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>

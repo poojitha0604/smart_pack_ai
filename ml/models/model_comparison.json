@@ -1,0 +1,34 @@
+{
+  "best": "Decision Tree",
+  "results": [
+    {
+      "model": "Decision Tree",
+      "accuracy": 1.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    {
+      "model": "Random Forest",
+      "accuracy": 1.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    {
+      "model": "Logistic Regression",
+      "accuracy": 0.9924,
+      "precision": 0.9925,
+      "recall": 0.9924,
+      "f1": 0.9924
+    },
+    {
+      "model": "KNN",
+      "accuracy": 0.976,
+      "precision": 0.9761,
+      "recall": 0.976,
+      "f1": 0.976
+    }
+  ],
+  "rows": 3956
+}

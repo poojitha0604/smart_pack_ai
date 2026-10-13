@@ -1,0 +1,11 @@
+venv/
+__pycache__/
+*.pyc
+.env
+backend/smartpack.db
+ml/models/*.joblib
+dl/models/*.keras
+datasets/images/*/*
+!datasets/images/*/.gitkeep
+node_modules/
+downloads/

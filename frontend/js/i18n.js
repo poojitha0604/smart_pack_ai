@@ -1,0 +1,108 @@
+// Translations: key -> [English, Hindi, Telugu]
+var T={
+s1:["1 Upload","1 अपलोड","1 అప్‌లోడ్"],s2:["2 Details","2 विवरण","2 వివరాలు"],s3:["3 Result","3 परिणाम","3 ఫలితం"],
+h_up:["Upload a food image","खाद्य पदार्थ की फोटो अपलोड करें","ఆహార చిత్రాన్ని అప్‌లోడ్ చేయండి"],
+p_up:["We identify the food, you tell us how it will be stored and shipped, and we recommend suitable packaging.","हम खाद्य पदार्थ पहचानते हैं, आप बताते हैं कि उसे कैसे रखा और भेजा जाएगा, और हम उपयुक्त पैकेजिंग सुझाते हैं।","మేము ఆహారాన్ని గుర్తిస్తాము, మీరు దాన్ని ఎలా నిల్వ చేసి రవాణా చేస్తారో చెప్పండి, మేము తగిన ప్యాకేజింగ్‌ను సూచిస్తాము."],
+choose:["Tap to choose an image","फोटो चुनने के लिए टैप करें","చిత్రాన్ని ఎంచుకోవడానికి తాకండి"],
+det:["Detected food","पहचाना गया खाद्य पदार्थ","గుర్తించిన ఆహారం"],
+n_guess:["Demo guess from file name: {0}. Please confirm.","डेमो अनुमान (फ़ाइल नाम से): {0}। कृपया पुष्टि करें।","డెమో అంచనా (ఫైల్ పేరు నుండి): {0}. దయచేసి నిర్ధారించండి."],
+n_manual:["Demo mode: the trained deep-learning model is not connected yet, so please choose the food manually.","डेमो मोड: प्रशिक्षित डीप लर्निंग मॉडल अभी जुड़ा नहीं है, कृपया खाद्य पदार्थ स्वयं चुनें।","డెమో మోడ్: శిక్షణ పొందిన డీప్ లెర్నింగ్ మోడల్ ఇంకా అనుసంధానం కాలేదు, దయచేసి ఆహారాన్ని మీరే ఎంచుకోండి."],
+confirm:["Confirm food","खाद्य पदार्थ की पुष्टि करें","ఆహారాన్ని నిర్ధారించండి"],
+life:["Required shelf life (days)","आवश्यक शेल्फ लाइफ (दिन)","అవసరమైన షెల్ఫ్ లైఫ్ (రోజులు)"],
+storage:["Storage type","भंडारण का प्रकार","నిల్వ రకం"],transport:["Transportation","परिवहन","రవాణా"],temp:["Temperature (°C)","तापमान (°C)","ఉష్ణోగ్రత (°C)"],
+Ambient:["Ambient","सामान्य तापमान","సాధారణ ఉష్ణోగ్రత"],Chilled:["Chilled","ठंडा (रेफ्रिजरेटेड)","చల్లని (రిఫ్రిజిరేటెడ్)"],Frozen:["Frozen","जमा हुआ","గడ్డకట్టిన"],
+Short:["Short","छोटी दूरी","తక్కువ దూరం"],Medium:["Medium","मध्यम","మధ్యస్థం"],Long:["Long","लंबी दूरी","ఎక్కువ దూరం"],
+go:["Get recommendation","सिफारिश पाएँ","సిఫార్సు పొందండి"],back:["Back","वापस","వెనుకకు"],again:["Start over","फिर से शुरू करें","మళ్లీ ప్రారంభించండి"],
+rec:["Recommended packaging","सुझाई गई पैकेजिंग","సూచించిన ప్యాకేజింగ్"],why:["Why this recommendation?","यह सिफारिश क्यों?","ఈ సిఫార్సు ఎందుకు?"],
+stor:["Storage instructions","भंडारण निर्देश","నిల్వ సూచనలు"],plan:["Your plan","आपकी योजना","మీ ప్రణాళిక"],tg:["Transportation guidance","परिवहन मार्गदर्शन","రవాణా మార్గదర్శకం"],
+alt:["Alternative packaging","वैकल्पिक पैकेजिंग","ప్రత్యామ్నాయ ప్యాకేజింగ్"],eco:["Sustainable option","टिकाऊ विकल्प","పర్యావరణ అనుకూల ఎంపిక"],
+moisture:["Moisture","नमी","తేమ"],fat:["Fat","वसा","కొవ్వు"],resp:["Respiration","श्वसन","శ్వాసక్రియ"],
+v_High:["High","उच्च","అధికం"],v_Medium:["Medium","मध्यम","మధ్యస్థం"],v_Low:["Low","निम्न","తక్కువ"],v_None:["None","कोई नहीं","లేదు"],
+v_Acidic:["Acidic","अम्लीय","ఆమ్ల"],v_LowAcid:["Low-acid","कम अम्लीय","తక్కువ ఆమ్ల"],v_Neutral:["Neutral","उदासीन","తటస్థ"],
+v_VeryLow:["Very low","बहुत कम","చాలా తక్కువ"],v_VeryHigh:["Very high","बहुत उच्च","చాలా అధికం"],v_Tuned:["Tuned","समायोजित","సర్దుబాటు"],
+v_Excellent:["Excellent","उत्कृष्ट","అద్భుతం"],v_Good:["Good","अच्छी","మంచిది"],v_NoSeal:["Not sealed","सील नहीं होती","సీల్ చేయరు"],v_LowMed:["Low–Medium","कम–मध्यम","తక్కువ–మధ్యస్థం"],
+c_fresh:["Fresh produce","ताज़ी उपज","తాజా ఉత్పత్తులు"],c_root:["Root vegetable","जड़ वाली सब्ज़ी","దుంప కూరగాయ"],c_bulb:["Bulb vegetable","कंद सब्ज़ी","బల్బ్ కూరగాయ"],c_snack:["Snack food","स्नैक फूड","స్నాక్ ఫుడ్"],c_bakery:["Bakery","बेकरी","బేకరీ"],
+OTR:["OTR (oxygen)","ऑक्सीजन संचरण (OTR)","ఆక్సిజన్ ప్రసరణ (OTR)"],WVTR:["WVTR (water vapour)","जलवाष्प संचरण (WVTR)","నీటి ఆవిరి ప్రసరణ (WVTR)"],
+thk:["Film thickness","फिल्म की मोटाई","ఫిల్మ్ మందం"],seal:["Sealability","सीलिंग क्षमता","సీల్ సామర్థ్యం"],strg:["Mechanical strength","यांत्रिक मज़बूती","యాంత్రిక బలం"],map:["MAP suitable","MAP उपयुक्तता","MAP అనుకూలత"],yes:["Yes","हाँ","అవును"],no:["No","नहीं","కాదు"],
+Apple:["Apple","सेब","ఆపిల్"],Banana:["Banana","केला","అరటి"],Mango:["Mango","आम","మామిడి"],Orange:["Orange","संतरा","నారింజ"],Tomato:["Tomato","टमाटर","టమాటా"],Potato:["Potato","आलू","బంగాళదుంప"],Onion:["Onion","प्याज़","ఉల్లిపాయ"],Carrot:["Carrot","गाजर","క్యారెట్"],Chips:["Chips","चिप्स","చిప్స్"],Bread:["Bread","ब्रेड","బ్రెడ్"],
+pk0:["Perforated LDPE film","छिद्रित LDPE फिल्म","రంధ్రాలున్న LDPE ఫిల్మ్"],pk1:["Breathable MAP film","सांस लेने योग्य MAP फिल्म","గాలి ఆడే MAP ఫిల్మ్"],pk2:["Ventilated mesh / paper bag","हवादार जाली / कागज़ का थैला","గాలి ఆడే మెష్ / కాగితం సంచి"],pk3:["Metallized film (BOPP/MET)","मेटलाइज़्ड फिल्म (BOPP/MET)","మెటలైజ్డ్ ఫిల్మ్ (BOPP/MET)"],
+pk4:["Micro-perforated PP bag","सूक्ष्म-छिद्रित PP थैली","సూక్ష్మ రంధ్రాల PP సంచి"],pk5:["Frozen-grade LDPE/PA laminate","फ्रीज़र-ग्रेड LDPE/PA लैमिनेट","ఫ్రీజర్-గ్రేడ్ LDPE/PA లామినేట్"],pk6:["Biodegradable PLA film","बायोडिग्रेडेबल PLA फिल्म","జీవ విచ్ఛిన్న PLA ఫిల్మ్"],pk7:["Aluminium laminate (N₂ flush)","एल्यूमिनियम लैमिनेट (N₂)","అల్యూమినియం లామినేట్ (N₂)"],
+n_eth:["Keep away from ethylene-sensitive produce","एथिलीन-संवेदनशील उपज से दूर रखें","ఇథిలీన్ సున్నిత ఉత్పత్తులకు దూరంగా ఉంచండి"],n_chill:["Do not refrigerate below 12 °C (chilling injury)","12 °C से नीचे फ्रिज में न रखें (ठंड से नुकसान)","12 °C కంటే తక్కువ ఫ్రిజ్‌లో ఉంచకండి (చలి నష్టం)"],
+n_ripen:["Ripen at room temperature","पकने के लिए कमरे के तापमान पर रखें","పండడానికి గది ఉష్ణోగ్రతలో ఉంచండి"],n_vent:["Keep ventilated and dark","हवादार और अंधेरी जगह में रखें","గాలి ఆడేలా, చీకటిగా ఉంచండి"],
+n_humid:["Keep at high humidity","उच्च आर्द्रता में रखें","అధిక తేమతో ఉంచండి"],n_dry:["Keep dry, away from light","सूखा रखें, रोशनी से दूर","పొడిగా, కాంతికి దూరంగా ఉంచండి"],
+w_c1:["High fat → oxidation risk, needs a strong oxygen barrier","अधिक वसा → ऑक्सीकरण का खतरा, मज़बूत ऑक्सीजन अवरोध चाहिए","అధిక కొవ్వు → ఆక్సీకరణ ప్రమాదం, బలమైన ఆక్సిజన్ అవరోధం అవసరం"],
+w_c2:["Low moisture → must block water vapour to stay crisp","कम नमी → कुरकुरा रखने के लिए जलवाष्प रोकना ज़रूरी","తక్కువ తేమ → కరకరలాడేలా ఉండటానికి నీటి ఆవిరిని అడ్డుకోవాలి"],
+w_c3:["Opaque metallized layer also blocks light that speeds rancidity","अपारदर्शी मेटलाइज़्ड परत रोशनी भी रोकती है जो खराब होने की गति बढ़ाती है","అపారదర్శక మెటలైజ్డ్ పొర కాంతిని కూడా అడ్డుకుంటుంది"],
+w_b1:["Medium moisture → moderate moisture barrier limits drying and staling","मध्यम नमी → मध्यम अवरोध सूखने और बासी होने से बचाता है","మధ్యస్థ తేమ → మధ్యస్థ అవరోధం ఎండిపోవడం, పాతబడటాన్ని తగ్గిస్తుంది"],
+w_b2:["No respiration → micro-perforations only reduce condensation and mould","श्वसन नहीं → सूक्ष्म छिद्र केवल संघनन और फफूँद घटाते हैं","శ్వాసక్రియ లేదు → సూక్ష్మ రంధ్రాలు తేమ బిందువులు, బూజును తగ్గిస్తాయి"],
+w_t1:["Low respiration but sensitive to moisture and light","श्वसन कम, पर नमी और रोशनी के प्रति संवेदनशील","శ్వాసక్రియ తక్కువ, కానీ తేమ, కాంతికి సున్నితం"],
+w_t2:["Ventilation prevents sprouting, rot and condensation","हवा का प्रवाह अंकुरण, सड़न और संघनन रोकता है","గాలి ప్రసరణ మొలకలు, కుళ్ళడం, తేమ బిందువులను నివారిస్తుంది"],
+w_f1:["Frozen storage → needs a tough film that stays flexible when cold","जमा भंडारण → ठंड में भी लचीली मज़बूत फिल्म चाहिए","గడ్డకట్టిన నిల్వ → చలిలో కూడా వంగే దృఢమైన ఫిల్మ్ అవసరం"],
+w_f2:["Barrier limits freezer burn and moisture loss","अवरोध फ्रीज़र बर्न और नमी की हानि घटाता है","అవరోధం ఫ్రీజర్ బర్న్, తేమ నష్టాన్ని తగ్గిస్తుంది"],
+w_m1:["Respiration continues after harvest → package must let gases balance","कटाई के बाद भी श्वसन जारी → पैकेज में गैसों का संतुलन ज़रूरी","కోత తర్వాత కూడా శ్వాసక్రియ → వాయువుల సమతుల్యత అవసరం"],
+w_m2:["Long shelf life or transport benefits from modified atmosphere","लंबी शेल्फ लाइफ या परिवहन में संशोधित वातावरण उपयोगी","ఎక్కువ షెల్ఫ్ లైఫ్/రవాణాకు మార్పు చేసిన వాతావరణం ఉపయోగకరం"],
+w_s1:["Short shelf life or ambient storage → a simple perforated film is enough","कम शेल्फ लाइफ या सामान्य भंडारण → साधारण छिद्रित फिल्म पर्याप्त","తక్కువ షెల్ఫ్ లైఫ్/సాధారణ నిల్వ → సాధారణ రంధ్రాల ఫిల్మ్ చాలు"],
+w_s2:["Perforations avoid condensation and CO₂ build-up","छिद्र संघनन और CO₂ जमाव से बचाते हैं","రంధ్రాలు తేమ బిందువులు, CO₂ పేరుకుపోవడాన్ని నివారిస్తాయి"],
+tg_L:["Keep the temperature steady, avoid stacking heavy loads, and allow airflow between cartons.","तापमान स्थिर रखें, भारी सामान ऊपर न रखें और कार्टन के बीच हवा का प्रवाह रखें।","ఉష్ణోగ్రత స్థిరంగా ఉంచండి, భారీ వస్తువులను పైన పేర్చకండి, డబ్బాల మధ్య గాలి ఆడేలా చూడండి."],
+tg_M:["Load promptly and avoid prolonged exposure to sun or heat.","जल्दी लोड करें और धूप या गर्मी में देर तक न रखें।","త్వరగా లోడ్ చేయండి, ఎండలో లేదా వేడిలో ఎక్కువసేపు ఉంచకండి."],
+tg_S:["Deliver quickly; standard handling is usually enough.","जल्दी पहुँचाएँ; सामान्य हैंडलिंग आमतौर पर पर्याप्त है।","త్వరగా అందించండి; సాధారణ నిర్వహణ సాధారణంగా సరిపోతుంది."],
+foot:["Prototype: food characteristics and packaging values are typical reference figures, and recommendations come from rules, not a trained ML model yet.","प्रोटोटाइप: खाद्य गुण और पैकेजिंग मान सामान्य संदर्भ आँकड़े हैं, और सिफारिशें नियमों पर आधारित हैं, अभी प्रशिक्षित ML मॉडल से नहीं।","ప్రోటోటైప్: ఆహార లక్షణాలు, ప్యాకేజింగ్ విలువలు సాధారణ సూచన గణాంకాలు; సిఫార్సులు నియమాల ఆధారంగా, ఇంకా శిక్షణ పొందిన ML మోడల్ నుండి కాదు."]
+};
+
+// Extra strings used when the page talks to the backend
+Object.assign(T,{
+working:["Analysing image…","चित्र का विश्लेषण हो रहा है…","చిత్రాన్ని విశ్లేషిస్తున్నాము…"],
+n_det:["Detected: {0} ({1}% probability). Please confirm.","पहचाना गया: {0} ({1}% संभावना)। कृपया पुष्टि करें।","గుర్తించినది: {0} ({1}% సంభావ్యత). దయచేసి నిర్ధారించండి."],
+n_low:["Not sure about this food. Possible matches: {0}. Please confirm.","इस खाद्य पदार्थ के बारे में निश्चित नहीं हैं। संभावित विकल्प: {0}। कृपया पुष्टि करें।","ఈ ఆహారం గురించి ఖచ్చితంగా తెలియదు. సాధ్యమైన ఎంపికలు: {0}. దయచేసి నిర్ధారించండి."],
+n_err:["Could not reach the server. Start the backend and choose the food manually.","सर्वर से संपर्क नहीं हो सका। बैकएंड चालू करें और खाद्य पदार्थ स्वयं चुनें।","సర్వర్‌ను చేరుకోలేకపోయాము. బ్యాకెండ్ ప్రారంభించి ఆహారాన్ని మీరే ఎంచుకోండి."],
+err_rec:["Could not get a recommendation. Please check the backend.","सिफारिश नहीं मिल सकी। कृपया बैकएंड जाँचें।","సిఫార్సు పొందలేకపోయాము. దయచేసి బ్యాకెండ్‌ను తనిఖీ చేయండి."],
+m_ml:["Recommended by the trained ML model ({0}% probability).","प्रशिक्षित ML मॉडल द्वारा सुझाया गया ({0}% संभावना)।","శిక్షణ పొందిన ML మోడల్ సూచించింది ({0}% సంభావ్యత)."],
+m_rules:["Recommended by the rule-based fallback (train the ML model to enable ML).","नियम-आधारित विकल्प द्वारा सुझाया गया (ML के लिए मॉडल प्रशिक्षित करें)।","నియమ ఆధారిత పద్ధతి సూచించింది (ML కోసం మోడల్‌ను శిక్షణ ఇవ్వండి)."],
+foot:["Food characteristics and packaging values are typical reference figures, not measured from the photo.","खाद्य गुण और पैकेजिंग मान सामान्य संदर्भ आँकड़े हैं, फोटो से मापे नहीं गए।","ఆహార లక్షణాలు, ప్యాకేజింగ్ విలువలు సాధారణ సూచన గణాంకాలు; ఫోటో నుండి కొలిచినవి కావు."]
+});
+// Strings for item names and the spoilage / packing guide
+Object.assign(T,{
+"Potato Chips":["Potato Chips","आलू चिप्स","బంగాళదుంప చిప్స్"],
+item:["Item name","वस्तु का नाम","వస్తువు పేరు"],
+c_fruit:["Fruit","फल","పండు"],c_veg:["Vegetable","सब्ज़ी","కూరగాయ"],
+hrs:["Travel time (hours)","यात्रा का समय (घंटे)","ప్రయాణ సమయం (గంటలు)"],hr_u:["h","घंटे","గం"],
+pack_h:["How to pack it to prevent spoilage","खराब होने से बचाने के लिए कैसे पैक करें","పాడవకుండా ఎలా ప్యాక్ చేయాలి"],
+risk:["Spoilage risk","खराब होने का जोखिम","పాడయ్యే ప్రమాదం"],
+steps_h:["Packing steps","पैकिंग के चरण","ప్యాకింగ్ దశలు"],
+travel_h:["For your travel time","आपकी यात्रा के समय के लिए","మీ ప్రయాణ సమయానికి"],
+temp_h:["For your storage temperature","आपके भंडारण तापमान के लिए","మీ నిల్వ ఉష్ణోగ్రతకు"],
+sp_fruit:["Fruit spoils mainly through continued ripening and respiration, moisture loss, bruising and mould.","फल मुख्य रूप से लगातार पकने और श्वसन, नमी की कमी, चोट लगने और फफूँद से खराब होते हैं।","పండ్లు ప్రధానంగా పండడం, శ్వాసక్రియ కొనసాగడం, తేమ కోల్పోవడం, దెబ్బలు, బూజు వల్ల పాడవుతాయి."],
+sp_veg:["Vegetables spoil through moisture loss, rot, mould, bruising and sprouting (potato, onion).","सब्ज़ियाँ नमी की कमी, सड़न, फफूँद, चोट और अंकुरण (आलू, प्याज़) से खराब होती हैं।","కూరగాయలు తేమ కోల్పోవడం, కుళ్ళడం, బూజు, దెబ్బలు, మొలకలు (బంగాళదుంప, ఉల్లిపాయ) వల్ల పాడవుతాయి."],
+sp_snack:["Chips spoil through oxidation of fat (stale, rancid taste), moisture pick-up (soft chips), light exposure and crushing.","चिप्स वसा के ऑक्सीकरण (बासी स्वाद), नमी सोखने (नरम पड़ने), रोशनी और टूटने-कुचलने से खराब होते हैं।","చిప్స్ కొవ్వు ఆక్సీకరణ (పాత రుచి), తేమ పీల్చుకోవడం (మెత్తబడడం), కాంతి, నలిగిపోవడం వల్ల పాడవుతాయి."],
+sp_bake:["Bread spoils through staling, drying, mould growth and squashing.","ब्रेड बासी होने, सूखने, फफूँद लगने और दबने से खराब होती है।","బ్రెడ్ పాతబడడం, ఎండిపోవడం, బూజు పట్టడం, నలిగిపోవడం వల్ల పాడవుతుంది."],
+pk_fruit1:["Sort the fruit first: remove bruised, cut or overripe pieces, because one rotten fruit spoils the rest.","पहले फलों को छाँटें: चोटिल, कटे या अधिक पके फल हटा दें, क्योंकि एक सड़ा फल बाकी को खराब कर देता है।","ముందుగా పండ్లను వేరు చేయండి: దెబ్బతిన్న, కోసిన లేదా ఎక్కువగా పండిన వాటిని తీసేయండి, ఎందుకంటే ఒక కుళ్ళిన పండు మిగతావాటిని పాడు చేస్తుంది."],
+pk_fruit2:["Pack in one or two layers in ventilated crates or cartons, with paper or foam-net cushioning between the fruits.","हवादार क्रेट या कार्टन में एक या दो परत में पैक करें, फलों के बीच कागज़ या फोम नेट की गद्दी लगाएँ।","గాలి ఆడే క్రేట్లు లేదా డబ్బాల్లో ఒకటి లేదా రెండు వరుసల్లో ప్యాక్ చేయండి, పండ్ల మధ్య కాగితం లేదా ఫోమ్ నెట్ ఉంచండి."],
+pk_fruit3:["Line the carton with the recommended packaging shown above and keep the vents open so heat and moisture can escape.","कार्टन में ऊपर बताई गई सुझाई गई पैकेजिंग लगाएँ और छिद्र खुले रखें ताकि गर्मी और नमी बाहर निकल सके।","డబ్బాలో పైన చూపిన సూచించిన ప్యాకేజింగ్ ఉంచండి, వేడి, తేమ బయటకు పోయేలా రంధ్రాలు తెరిచి ఉంచండి."],
+pk_veg1:["Remove damaged, wet, soft or sprouting pieces before packing.","पैक करने से पहले क्षतिग्रस्त, गीले, नरम या अंकुरित टुकड़े हटा दें।","ప్యాక్ చేసే ముందు దెబ్బతిన్న, తడిగా ఉన్న, మెత్తబడిన లేదా మొలకెత్తిన వాటిని తీసేయండి."],
+pk_veg2:["Keep the produce dry and pack it in ventilated bags, mesh or crates; do not seal wet vegetables in plastic.","सब्ज़ियों को सूखा रखें और हवादार थैलों, जाली या क्रेट में पैक करें; गीली सब्ज़ियों को प्लास्टिक में बंद न करें।","కూరగాయలను పొడిగా ఉంచి గాలి ఆడే సంచులు, మెష్ లేదా క్రేట్లలో ప్యాక్ చేయండి; తడి కూరగాయలను ప్లాస్టిక్‌లో మూసివేయకండి."],
+pk_veg3:["Do not stack heavy loads on top, and keep soft items such as tomatoes in shallow layers.","ऊपर भारी सामान न रखें, और टमाटर जैसी नरम चीज़ों को उथली परतों में रखें।","పైన బరువైన వస్తువులు పేర్చకండి, టమాటా వంటి మెత్తని వాటిని తక్కువ పొరల్లో ఉంచండి."],
+pk_snack1:["Use sealed, nitrogen-flushed metallized pouches and check every seal; air and moisture make chips stale.","सील बंद, नाइट्रोजन भरे मेटलाइज़्ड पाउच इस्तेमाल करें और हर सील जाँचें; हवा और नमी चिप्स को बासी कर देती है।","సీల్ చేసిన, నైట్రోజన్ నింపిన మెటలైజ్డ్ పౌచ్‌లను వాడండి, ప్రతి సీల్ చూడండి; గాలి, తేమ చిప్స్‌ను పాతబరుస్తాయి."],
+pk_snack2:["Pack the pouches in strong corrugated cartons with enough space and cushioning so the chips do not get crushed.","पाउच को मज़बूत नालीदार कार्टन में पर्याप्त जगह और गद्दी के साथ पैक करें ताकि चिप्स कुचलें नहीं।","చిప్స్ నలిగిపోకుండా పౌచ్‌లను దృఢమైన కొరుగేటెడ్ డబ్బాల్లో తగినంత ఖాళీ, కుషనింగ్‌తో ప్యాక్ చేయండి."],
+pk_snack3:["Keep cartons away from sunlight, heat and damp floors, and do not open or re-pack them in humid air.","कार्टन को धूप, गर्मी और नम फर्श से दूर रखें; नम हवा में खोलें या दोबारा पैक न करें।","డబ్బాలను ఎండ, వేడి, తడి నేల నుండి దూరంగా ఉంచండి; తేమ గాలిలో తెరవకండి లేదా మళ్లీ ప్యాక్ చేయకండి."],
+pk_bake1:["Let bread cool fully before packing, otherwise steam turns into condensation and mould.","पैक करने से पहले ब्रेड को पूरी तरह ठंडा होने दें, वरना भाप संघनन और फफूँद बन जाती है।","ప్యాక్ చేసే ముందు బ్రెడ్‌ను పూర్తిగా చల్లారనివ్వండి, లేకపోతే ఆవిరి తేమగా మారి బూజు పడుతుంది."],
+pk_bake2:["Use a micro-perforated bag inside a rigid tray or crate so the loaves are not squashed.","ब्रेड को दबने से बचाने के लिए सूक्ष्म-छिद्रित थैली को कठोर ट्रे या क्रेट में रखें।","బ్రెడ్ నలగకుండా సూక్ష్మ రంధ్రాల సంచిని దృఢమైన ట్రే లేదా క్రేట్‌లో ఉంచండి."],
+tt_fresh_S:["Short trip (under 6 hours): normal packing is enough. Load just before leaving and keep the load out of direct sun.","छोटी यात्रा (6 घंटे से कम): सामान्य पैकिंग पर्याप्त है। निकलने से ठीक पहले लोड करें और माल को सीधी धूप से बचाएँ।","తక్కువ ప్రయాణం (6 గంటల కంటే తక్కువ): సాధారణ ప్యాకింగ్ చాలు. బయలుదేరే ముందే లోడ్ చేయండి, నేరుగా ఎండ తగలకుండా చూడండి."],
+tt_fresh_M:["Medium trip (6–24 hours): pre-cool the produce before loading, use vented cartons, keep the vehicle shaded and avoid stopping in the sun.","मध्यम यात्रा (6–24 घंटे): लोड करने से पहले माल को ठंडा करें, हवादार कार्टन इस्तेमाल करें, वाहन को छाया में रखें और धूप में रुकने से बचें।","మధ్యస్థ ప్రయాణం (6–24 గంటలు): లోడ్ చేసే ముందు ఉత్పత్తులను చల్లబరచండి, రంధ్రాలున్న డబ్బాలు వాడండి, వాహనాన్ని నీడలో ఉంచండి, ఎండలో ఆగకండి."],
+tt_fresh_L:["Long trip (over 24 hours): pre-cool before loading, use insulated or refrigerated transport, leave air gaps between cartons and check the load at every stop for soft or rotting pieces.","लंबी यात्रा (24 घंटे से अधिक): लोड करने से पहले ठंडा करें, इन्सुलेटेड या रेफ्रिजरेटेड परिवहन इस्तेमाल करें, कार्टन के बीच हवा के लिए जगह छोड़ें और हर पड़ाव पर नरम या सड़ते टुकड़ों की जाँच करें।","ఎక్కువ ప్రయాణం (24 గంటల కంటే ఎక్కువ): లోడ్ చేసే ముందు చల్లబరచండి, ఇన్సులేటెడ్ లేదా రిఫ్రిజిరేటెడ్ రవాణా వాడండి, డబ్బాల మధ్య గాలి ఖాళీలు వదలండి, ప్రతి ఆగిన చోట మెత్తబడిన లేదా కుళ్ళిన వాటిని చూడండి."],
+tt_dry_S:["Short trip (under 6 hours): normal cartons are enough; keep the load dry and out of direct sun.","छोटी यात्रा (6 घंटे से कम): सामान्य कार्टन पर्याप्त हैं; माल को सूखा रखें और सीधी धूप से बचाएँ।","తక్కువ ప్రయాణం (6 గంటల కంటే తక్కువ): సాధారణ డబ్బాలు చాలు; సరుకును పొడిగా ఉంచి నేరుగా ఎండ తగలకుండా చూడండి."],
+tt_dry_M:["Medium trip (6–24 hours): use strong cartons, cover the load against rain and heat, and avoid parking in the sun.","मध्यम यात्रा (6–24 घंटे): मज़बूत कार्टन इस्तेमाल करें, माल को बारिश और गर्मी से ढकें और धूप में गाड़ी खड़ी न करें।","మధ్యస్థ ప్రయాణం (6–24 గంటలు): దృఢమైన డబ్బాలు వాడండి, వర్షం, వేడి నుండి సరుకును కప్పండి, ఎండలో వాహనం నిలపకండి."],
+tt_dry_L:["Long trip (over 24 hours): use strong, sealed cartons, keep the load cool, dry and shaded, limit unloading and reloading, and avoid heat building up inside the vehicle.","लंबी यात्रा (24 घंटे से अधिक): मज़बूत, सील बंद कार्टन इस्तेमाल करें, माल को ठंडा, सूखा और छाया में रखें, बार-बार उतारने-चढ़ाने से बचें और वाहन के अंदर गर्मी जमा न होने दें।","ఎక్కువ ప్రయాణం (24 గంటల కంటే ఎక్కువ): దృఢమైన, సీల్ చేసిన డబ్బాలు వాడండి, సరుకును చల్లగా, పొడిగా, నీడలో ఉంచండి, తరచుగా దించి ఎక్కించకండి, వాహనం లోపల వేడి పేరుకుపోకుండా చూడండి."],
+temp_ok:["Your storage temperature is within the ideal range for this food, so keep it steady.","आपका भंडारण तापमान इस खाद्य पदार्थ के लिए आदर्श सीमा में है, इसे स्थिर रखें।","మీ నిల్వ ఉష్ణోగ్రత ఈ ఆహారానికి అనువైన పరిధిలో ఉంది, దాన్ని స్థిరంగా ఉంచండి."],
+temp_hot:["Your temperature is above the ideal range ({0}), so spoilage will be faster. Cool the product, shorten the storage time or use a higher-barrier film.","आपका तापमान आदर्श सीमा ({0}) से अधिक है, इसलिए माल जल्दी खराब होगा। उसे ठंडा करें, भंडारण का समय घटाएँ या अधिक अवरोध वाली फिल्म इस्तेमाल करें।","మీ ఉష్ణోగ్రత అనువైన పరిధి ({0}) కంటే ఎక్కువగా ఉంది, కాబట్టి త్వరగా పాడవుతుంది. ఉత్పత్తిని చల్లబరచండి, నిల్వ సమయం తగ్గించండి లేదా ఎక్కువ అవరోధం ఉన్న ఫిల్మ్ వాడండి."],
+temp_cold:["Your temperature is below the ideal range ({0}), which can cause chilling injury or quality loss (for example, faster staling of bread). Raise it slightly or insulate the load.","आपका तापमान आदर्श सीमा ({0}) से कम है, जिससे ठंड से नुकसान या गुणवत्ता में कमी हो सकती है (जैसे ब्रेड जल्दी बासी होना)। इसे थोड़ा बढ़ाएँ या माल को इन्सुलेट करें।","మీ ఉష్ణోగ్రత అనువైన పరిధి ({0}) కంటే తక్కువగా ఉంది, దీనివల్ల చలి నష్టం లేదా నాణ్యత తగ్గవచ్చు (ఉదా: బ్రెడ్ త్వరగా పాతబడడం). కొద్దిగా పెంచండి లేదా సరుకును ఇన్సులేట్ చేయండి."],
+temp_frozen:["Frozen storage: keep the temperature steady at -18 °C or colder and avoid thawing and refreezing.","जमा भंडारण: तापमान -18 °C या उससे कम स्थिर रखें और पिघलाने-दोबारा जमाने से बचें।","గడ్డకట్టిన నిల్వ: ఉష్ణోగ్రతను -18 °C లేదా అంతకంటే తక్కువగా స్థిరంగా ఉంచండి, కరిగించి మళ్లీ గడ్డకట్టించకండి."]
+});
+// Food-selection placeholder and AI-detection messages
+Object.assign(T,{
+pick:["Select the food…","खाद्य पदार्थ चुनें…","ఆహారాన్ని ఎంచుకోండి…"],
+n_ai:["Claude identified this as {0}. Please confirm.","Claude ने इसे {0} के रूप में पहचाना। कृपया पुष्टि करें।","Claude దీన్ని {0} గా గుర్తించింది. దయచేసి నిర్ధారించండి."],
+n_none:["No supported food was recognised in this image. Please choose the food manually.","इस चित्र में कोई समर्थित खाद्य पदार्थ नहीं पहचाना गया। कृपया खाद्य पदार्थ स्वयं चुनें।","ఈ చిత్రంలో మద్దతు ఉన్న ఆహారం గుర్తించబడలేదు. దయచేసి ఆహారాన్ని మీరే ఎంచుకోండి."]
+});
+var li=0;
+// t("key", arg0, arg1...) -> translated string; {0} {1} are replaced by the args
+function t(k){var a=T[k],s=a?a[li]:k;for(var i=1;i<arguments.length;i++)s=s.replace("{"+(i-1)+"}",arguments[i]);return s}
